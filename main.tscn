@@ -1,0 +1,60 @@
+[gd_scene format=3 uid="uid://mflfit5iew0t"]
+
+[ext_resource type="Script" uid="uid://dexsg25c44hae" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://dio41g78hhwcu" path="res://player.tscn" id="2_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://dvllf1haar0b7" path="res://mob.tscn" id="2_h2yge"]
+[ext_resource type="Texture2D" uid="uid://chkxxfuno5qh8" path="res://grand-palace-hall.jpg" id="3_lquwl"]
+[ext_resource type="PackedScene" uid="uid://bv70y5k74yfos" path="res://hud.tscn" id="4_1bvp3"]
+[ext_resource type="AudioStream" uid="uid://8wo258veoswd" path="res://art/SLIME COCA - Sourness (WZX_O Remix) [TFT005] (Premiere).mp3" id="6_7mycd"]
+
+[sub_resource type="Curve2D" id="Curve2D_0xm2m"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 2, -2, 0, 0, 0, 0, 1280, -4, 0, 0, 0, 0, 1276, 719, 0, 0, 0, 0, -8, 727, 0, 0, 0, 0, -6, 3, 0, 0, 0, 0, 2, -2)
+}
+point_count = 6
+
+[node name="Main" type="Node" unique_id=1718057409]
+script = ExtResource("1_ig7tw")
+mob_scene = ExtResource("2_h2yge")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=920658685]
+offset_left = -6.0
+offset_top = -3.0
+offset_right = 1281.0
+offset_bottom = 725.0
+texture = ExtResource("3_lquwl")
+expand_mode = 1
+
+[node name="Player" parent="." unique_id=1324672612 instance=ExtResource("2_0xm2m")]
+
+[node name="MobTimer" type="Timer" parent="." unique_id=1915119732]
+wait_time = 0.5
+
+[node name="ScoreTimer" type="Timer" parent="." unique_id=2069441655]
+
+[node name="StartTimer" type="Timer" parent="." unique_id=1679881255]
+wait_time = 2.0
+one_shot = true
+
+[node name="StartPosition" type="Marker2D" parent="." unique_id=1990311713]
+position = Vector2(633, 439)
+
+[node name="MobPath" type="Path2D" parent="." unique_id=1545849056]
+curve = SubResource("Curve2D_0xm2m")
+
+[node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath" unique_id=648709976]
+position = Vector2(2, -2)
+rotation = -0.0015649439
+
+[node name="HUD" parent="." unique_id=623481929 instance=ExtResource("4_1bvp3")]
+
+[node name="Music" type="AudioStreamPlayer2D" parent="." unique_id=294832216]
+stream = ExtResource("6_7mycd")
+volume_db = -10.0
+autoplay = true
+
+[connection signal="hit" from="Player" to="." method="game_over"]
+[connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
+[connection signal="timeout" from="ScoreTimer" to="." method="_on_score_timer_timeout"]
+[connection signal="timeout" from="StartTimer" to="." method="_on_start_timer_timeout"]
+[connection signal="start_game" from="HUD" to="." method="new_game"]
