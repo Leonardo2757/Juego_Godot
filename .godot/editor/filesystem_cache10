@@ -1,0 +1,35 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1771695500
+grand-palace-hall.jpg::CompressedTexture2D::5286244908609873983::1771695060::1771695062::1::::<><><>0<>0<>006dab893297ce09d6195bfd1e88c70b<>res://.godot/imported/grand-palace-hall.jpg-9c3cb642f16a19d40a99ca607b85e50a.ctex::
+icon.svg::CompressedTexture2D::8548278489545244664::1770487028::1770487032::1::::<><><>0<>0<>19b19b77078c5ab567b97d7cfd782427<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.gd::GDScript::7488603199213392152::1771694189::0::1::::<>Node<><>0<>0<><>::
+main.tscn::PackedScene::853265279228665053::1771695500::0::1::::<><><>0<>0<><>::uid://dexsg25c44hae::::res://main.gd<>uid://dio41g78hhwcu::::res://player.tscn<>uid://dvllf1haar0b7::::res://mob.tscn<>uid://chkxxfuno5qh8::::res://grand-palace-hall.jpg<>uid://bv70y5k74yfos::::res://hud.tscn<>uid://rjrja5oec4e0::::res://art/House In a Forest Loop.ogg
+mob.gd::GDScript::8809268629833661316::1771692122::0::1::::<>RigidBody2D<><>0<>0<><>::
+mob.tscn::PackedScene::8656614115084028142::1771695390::0::1::::<><><>0<>0<><>::uid://dxrjmqtxvwj7a::::res://mob.gd<>uid://cg7sy5e6bbg3f::::res://art/walk1enemy.png<>uid://bqp4yndntous7::::res://art/walk2enemy.png
+player.gd::GDScript::6834828665295710637::1770490158::0::1::::<>Area2D<><>0<>0<><>::
+player.tscn::PackedScene::7751481678255020024::1771694988::0::1::::<><><>0<>0<><>::uid://c4m3vn0kh05dx::::res://player.gd<>uid://yxb372kt4r8n::::res://walk1.png<>uid://gatgv8ohyyuf::::res://walk2.png
+hud.gd::GDScript::63126847041299405::1771694409::0::1::::<>CanvasLayer<><>0<>0<><>::
+hud.tscn::PackedScene::3928008864736758418::1771694516::0::1::::<><><>0<>0<><>::uid://5txptyd35hx::::res://hud.gd<>uid://c842x6escy224::::res://fonts/Xolonium-Regular.ttf
+Sin título-2.jpg::CompressedTexture2D::5102700826106212184::1771694656::1771694657::1::::<><><>0<>0<>65936f9e12c424327b4d6c0f859ecb7c<>res://.godot/imported/Sin título-2.jpg-ecdf0061137308dc0074a656a42b3369.ctex::
+walk1.png::CompressedTexture2D::1732125377816084683::1771694922::1771694923::1::::<><><>0<>0<>7a9a7dc8a7ccf1a34191604e6c86dfe1<>res://.godot/imported/walk1.png-7470b6786dfe978ab2f84533cd02c409.ctex::
+walk2.png::CompressedTexture2D::422298554069507261::1771694922::1771694923::1::::<><><>0<>0<>f425e5bfea8303450b0ece8ddf4877f0<>res://.godot/imported/walk2.png-c7d4e65eb32f2c7e890476c312792b3f.ctex::
+::res://art/::1771695562
+enemyFlyingAlt_1.png::CompressedTexture2D::7773974620488393810::1744386698::1770487197::1::::<><><>0<>0<>bc1643f49c31a25ab6856f4ae4615598<>res://.godot/imported/enemyFlyingAlt_1.png-559f599b16c69b112c1b53f6332e9489.ctex::
+enemyFlyingAlt_2.png::CompressedTexture2D::3729893762323310413::1744386698::1770487197::1::::<><><>0<>0<>b631735f5205b7a2e31dd5013d0d8c6b<>res://.godot/imported/enemyFlyingAlt_2.png-31dc7310eda6e1b721224f3cd932c076.ctex::
+enemySwimming_1.png::CompressedTexture2D::6871475145932317579::1744386698::1770487197::1::::<><><>0<>0<>82804f324bc8f51ba661cd3a6b052e14<>res://.godot/imported/enemySwimming_1.png-dd0e11759dc3d624c8a704f6e98a3d80.ctex::
+enemySwimming_2.png::CompressedTexture2D::173593782343874624::1744386698::1770487197::1::::<><><>0<>0<>64b59d7277c9df0750cf5f93879229e5<>res://.godot/imported/enemySwimming_2.png-4c0cbc0732264c4ea3290340bd4a0a62.ctex::
+enemyWalking_1.png::CompressedTexture2D::4778263404662819064::1744386698::1770487197::1::::<><><>0<>0<>f571fc1ed885cc455198541f232b346d<>res://.godot/imported/enemyWalking_1.png-5af6eedbe61b701677d490ffdc1e6471.ctex::
+enemyWalking_2.png::CompressedTexture2D::4477130931157100889::1744386698::1770487197::1::::<><><>0<>0<>3d3d18134b48425e6a40f2950c299c47<>res://.godot/imported/enemyWalking_2.png-67c480ed60c35e95f5acb0436246b935.ctex::
+gameover.wav::AudioStreamWAV::4447492273588149586::1744386698::1770487197::1::::<><><>0<>0<>55b4c348ed5c3ffdddd279c0ae13d246<>res://.godot/imported/gameover.wav-98c95c744b35280048c2bd093cf8a356.sample::
+House In a Forest Loop.ogg::AudioStreamOggVorbis::1212838049640948517::1744386698::1770487197::1::::<><><>0<>0<>c002595ee4c89dc0fab4f2b7397207ab<>res://.godot/imported/House In a Forest Loop.ogg-1a6a72ae843ad792b7039931227e8d50.oggvorbisstr::
+playerGrey_up1.png::CompressedTexture2D::2857402715696645505::1744386698::1770487197::1::::<><><>0<>0<>1ab2382518778d0f079620a895deadfd<>res://.godot/imported/playerGrey_up1.png-6bd114d0a6beac91f48e3a7314d44564.ctex::
+playerGrey_up2.png::CompressedTexture2D::6664077932877426799::1744386698::1770487197::1::::<><><>0<>0<>e7fccb2db01f9e604165a1a7105f4626<>res://.godot/imported/playerGrey_up2.png-d6aba85f5f2675ebc7045efa7552ee79.ctex::
+playerGrey_walk1.png::CompressedTexture2D::4397791455893187695::1744386698::1770487197::1::::<><><>0<>0<>40361d18433a1e0debb457a3b708f087<>res://.godot/imported/playerGrey_walk1.png-c4773fe7a7bf85d7ab732eb4458c2742.ctex::
+playerGrey_walk2.png::CompressedTexture2D::224649050029708035::1744386698::1770487197::1::::<><><>0<>0<>d872d45ec909641110b3dba36243e94a<>res://.godot/imported/playerGrey_walk2.png-34d2d916366100182d08037c51884043.ctex::
+SLIME COCA - Sourness (WZX_O Remix) [TFT005] (Premiere).mp3::AudioStreamMP3::2362548032617657543::1771695562::1771695562::1::::<><><>0<>0<>49420ee6c9ba9c7a26f6013e091cbdb6<>res://.godot/imported/SLIME COCA - Sourness (WZX_O Remix) [TFT005] (Premiere).mp3-0c83b8b6b32526797dc15f0d8abf13a9.mp3str::
+walk1enemy.png::CompressedTexture2D::5261171865557426765::1771695331::1771695331::1::::<><><>0<>0<>1ba9913154a530dd9968674b734db32e<>res://.godot/imported/walk1enemy.png-289d5caad22b35104d35914d5803ea01.ctex::
+walk2enemy.png::CompressedTexture2D::3542212188111050836::1771695331::1771695331::1::::<><><>0<>0<>3d16771fd130e3144a1274a1765ce42f<>res://.godot/imported/walk2enemy.png-f5d4b89d269c74ecaa05799a699ecddf.ctex::
+::res://fonts/::1770487197
+FONTLOG.txt::TextFile::-1::1744386698::0::1::::<><><>0<>0<><>::
+LICENSE.txt::TextFile::-1::1744386698::0::1::::<><><>0<>0<><>::
+Xolonium-Regular.ttf::FontFile::7150622229598069311::1744386698::1770487197::1::::<><><>0<>0<>01a0a3ebe5f127c562aafec26d356e37<>res://.godot/imported/Xolonium-Regular.ttf-bc2981e3069cff4c34dd7c8e2bb73fba.fontdata::
